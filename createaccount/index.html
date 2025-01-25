@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form">
+        <h2>Create account</h2>
+        <div class="form-box">
+          <input type="text" id="name" name="name" placeholder="User name" />
+        </div>
+        <div class="form-box">
+          <input type="email" id="email" name="email" placeholder="User email" />
+        </div>
+        <div class="form-box">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-box">
+          <input
+            type="password"
+            id="ConfirmPassword"
+            name="ConfirmPassword"
+            placeholder="Confirm password"
+          />
+        </div>
+        <button type="button" id="showPass">show/close password</button>
+        <button type="submit" class="btn">send</button>
+      </form>
+      <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
